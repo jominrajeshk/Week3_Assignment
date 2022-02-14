@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+.background {
+  height: 100vh;
+  width: 100vw;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url(..\assets\bg-intro-desktop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.signup {
+  height: 70vh;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.colOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5%;
+}
+.para1 {
+  color: white;
+  font-family: "Poppins";
+  font-size: 2.8em;
+  font-weight: 700;
+}
+.para2 {
+  color: white;
+  font-size: 0.9em;
+  font-family: "Poppins";
+}
+.colTwo {
+  display: grid;
+  grid-template-rows: 15% 80%;
+  align-content: space-between;
+}
+.header {
+  color: white;
+  font-family: "Poppins";
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+.header span {
+  color: hsl(246, 25%, 77%);
+}
+.inputForm {
+  background-color: white;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 15% 15% 15% 15% 15% 9%;
+  align-content: space-between;
+  padding: 5%;
+  font-family: "Poppins";
+}
+.inputForm div {
+  float: right;
+  font-size: 0.8em;
+  color: red;
+}
+.inputForm input::placeholder {
+  font-family: "Poppins";
+  color: black;
+
+  /* color: hsl(246, 25%, 77%); */
+}
+.inputForm input {
+  color: hsl(249, 10%, 26%);
+  padding-left: 5%;
+  font-family: "Poppins";
+  font-weight: 500;
+  width: 100%;
+  height: 75%;
+}
+.btn {
+  background-color: hsl(154, 59%, 51%);
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+  width: 100%;
+  height: 100%;
+}
+.footer {
+  text-align: center;
+  font-size: 0.8em;
+}
+.footer span {
+  color: red;
+}
+.error {
+  background: url(..\assets\icon-error.svg) no-repeat scroll;
+  background-position: 99%;
+  border: 1px solid red;
+}
