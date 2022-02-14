@@ -21,6 +21,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+/*random*/
 .colOne {
   display: flex;
   flex-direction: column;
